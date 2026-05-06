@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 text-slate-800 transition-colors duration-200 dark:bg-slate-950 dark:text-slate-100;
+}
+
+.ocr-progress {
+  width: 35%;
+  animation: ocr-progress-slide 1.4s ease-in-out infinite;
+}
+
+@keyframes ocr-progress-slide {
+  0% {
+    transform: translateX(-120%);
+  }
+  100% {
+    transform: translateX(320%);
+  }
+}

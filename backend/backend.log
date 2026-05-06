@@ -1,0 +1,48 @@
+2026-05-03 16:48:32,060 WARNING passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-05-03 16:48:40,693 WARNING passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-05-03 16:49:23,106 WARNING passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-05-03 16:49:30,138 WARNING passlib.handlers.bcrypt: (trapped) error reading bcrypt version
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.11/site-packages/passlib/handlers/bcrypt.py", line 620, in _load_backend_mixin
+    version = _bcrypt.__about__.__version__
+              ^^^^^^^^^^^^^^^^^
+AttributeError: module 'bcrypt' has no attribute '__about__'
+2026-05-03 16:52:16,191 INFO app.services.document_service: Start processing document 1
+2026-05-03 16:52:17,378 INFO app.services.document_service: Finished processing document 1
+2026-05-03 16:52:36,064 INFO app.services.document_service: Start processing document 1
+2026-05-03 16:52:37,090 INFO app.services.document_service: Finished processing document 1
+2026-05-03 16:58:24,190 INFO app.services.document_service: Start processing document 2
+2026-05-03 16:58:25,221 INFO app.services.document_service: Finished processing document 2
+2026-05-03 16:58:42,006 INFO app.services.document_service: Start processing document 2
+2026-05-03 16:58:43,037 INFO app.services.document_service: Finished processing document 2
+2026-05-03 16:59:04,904 INFO app.services.document_service: Start processing document 2
+2026-05-03 16:59:05,924 INFO app.services.document_service: Finished processing document 2
+2026-05-04 02:06:40,897 INFO app.services.document_service: Start processing document 3
+2026-05-04 02:06:42,112 INFO app.services.document_service: Finished processing document 3
+2026-05-04 14:00:14,583 INFO app.services.document_service: Start processing document 1
+2026-05-04 14:00:15,846 INFO app.services.document_service: Finished processing document 1
+2026-05-04 14:18:48,816 INFO app.services.document_service: Start processing document 2
+2026-05-04 14:18:50,101 INFO app.services.document_service: Finished processing document 2
+2026-05-04 14:19:16,269 INFO app.services.document_service: Start processing document 2
+2026-05-04 14:19:17,318 INFO app.services.document_service: Finished processing document 2
+2026-05-06 06:06:47,438 INFO app.services.document_service: Start processing document 2
+2026-05-06 06:06:48,827 INFO app.services.document_service: Finished processing document 2
+2026-05-06 06:12:49,235 INFO app.services.document_service: Start processing document 2
+2026-05-06 06:12:50,449 INFO app.services.document_service: Finished processing document 2
+2026-05-06 06:20:02,520 INFO app.services.document_service: Start processing document 2
+2026-05-06 06:20:03,642 INFO app.services.document_service: Finished processing document 2
